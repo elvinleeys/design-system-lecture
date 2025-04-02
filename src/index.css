@@ -1,3 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1d2745;
+  --color-secondary: #1de5d4;
+  --color-tertiary: #1d2745;
+  --color-white: #ffffff;
+  --color-mono100: #f1f1f1;
+  --color-mono200: #bebebe;
+  --color-mono300: #d6d7d9;
+  --color-error: #d01e1e;
+  --color-social: #395997;
+  --text-xs: 12px;
+  --lineheight-xs: 16px;
+  --letterspacing-xs: 0;
+  --fontweight-xs: 400; 
+
+  --text-sm: 14px;
+  --lineheight-sm: 21px;
+  --letterspacing-sm: 0;
+  --fontweight-sm: 400;
+
+  /* xl 설정 */
+  --text-xl: 20px;
+  --lineheight-xl: 30px;
+
+  /* 2xl 설정 */
+  --text-2xl: 24px;
+  --lineheight-2xl: 36px;
+  --letterspacing-2xl: 0;
+  --fontweight-2xl: 700;
+}
+
+.text-xs {
+  font-size: var(--text-sm);
+  line-height: var(--lineheight-sm);
+  letter-spacing: var(--letterspacing-sm);
+  font-weight: var(--fontweight-sm);
+}
+
+.text-sm {
+  font-size: var(--text-xs);
+  line-height: var(--lineheight-xs);
+  letter-spacing: var(--letterspacing-xs);
+  font-weight: var(--fontweight-xs);
+}
+
+/* xl 스타일 */
+.text-xl {
+  font-size: var(--text-xl);
+  line-height: var(--lineheight-xl);
+}
+
+/* 2xl 스타일 */
+.text-2xl {
+  font-size: var(--text-2xl);
+  line-height: var(--lineheight-2xl);
+  letter-spacing: var(--letterspacing-2xl);
+  font-weight: var(--fontweight-2xl);
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
